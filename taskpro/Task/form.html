@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FORM</title>
+  </head>
+  <style media="screen">
+    h2{
+      color:green;
+      font-size:45px;
+      margin-top:1px;
+      padding-bottom:-5px;
+    }
+form{
+  border-radius:10px;
+  box-shadow:5px 5px 5px red,-5px -5px 5px blue;
+  margin:50px 200px;
+  padding:30px 10px;
+}
+    label{
+
+      font-size:25px;
+      text-shadow:0px 0px 1px red,0px 0px 1px blue;
+
+    }
+    select,input{
+      font-size:20px;
+      color:darkcyan;
+      box-shadow:2px 2px 3px red,-2px -2px 3px blue;
+
+    }
+    textarea{
+      font-size:25px;
+    box-shadow:2px 2px 3px red,-2px -2px 3px blue;
+
+    }
+  </style>
+  <body>
+    <center>
+      <h2>ENTER YOUR DETAILS HERE!!!</h2>
+      <form>
+        <label>Enter Your First Name : </label>
+        <input type="text"><br><br>
+        <label>Enter Your Last Name : </label>
+        <input type="text"><br><br>
+        <label>Select Your Gender : </label>
+
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+          <br><br>
+          <label>Date Of Birth : </label>
+          <input type="date" name="date"><br><br>
+        <label>Enter Your Mobile Number : </label>
+        <input type="number"><br><br>
+        <label>Enter Your Stream : </label>
+        <select>
+        <option>Select</option>
+        <option>ECE</option>
+        <option>CSE</option>
+        <option>EEE</option>
+        <option>CIVIL</option>
+        <option>MECH</option>
+        <option>IT</option>
+        </select><br><br>
+
+        <label>Select Your Technical Skills : </label>
+        <input type="checkbox" name="">PYTHON
+        <input type="checkbox" name="">JAVA
+        <input type="checkbox" name="">SQL
+          <input type="checkbox" name="">AWS
+          <input type="checkbox" name="">PHP
+          <input type="checkbox" name="">DEVOPS
+          <br><br>
+        <label>Enter Your Email Id : </label>
+        <input type="text"><br><br>
+        <label>Enter Your Password : </label>
+        <input type="text"><br><br>
+        <label>Enter Your Location : </label>
+        <select>
+        <option>Select</option>
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Bengolore</option>
+        <option>Delhi</option>
+        <option>Kerala</option>
+        <option>Guntur</option>
+        <option>Vizag</option>
+        </select><br><br>
+
+        <label>Upload Your CV : </label>
+        <input type="file"><br><br>
+        <label>Address : </label>
+        <textarea name="address"></textarea><br><br>
+        <input type="submit"value="Register">
+        <input type="reset"value="cancel">
+      </form>
+      </center>
+
+  </body>
+</html>
